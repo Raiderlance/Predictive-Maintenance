@@ -1,0 +1,103 @@
+{
+  "roc_auc": 0.9856255801167844,
+  "pr_auc": 0.8889605078068079,
+  "precision": 0.8024691358024691,
+  "recall": 0.896551724137931,
+  "f1": 0.8469055374592834,
+  "confusion_matrix": [
+    [
+      25119,
+      32
+    ],
+    [
+      15,
+      130
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.9994031988541417,
+      "recall": 0.9987276847839052,
+      "f1-score": 0.9990653276324948,
+      "support": 25151.0
+    },
+    "1": {
+      "precision": 0.8024691358024691,
+      "recall": 0.896551724137931,
+      "f1-score": 0.8469055374592834,
+      "support": 145.0
+    },
+    "accuracy": 0.9981419987349779,
+    "macro avg": {
+      "precision": 0.9009361673283054,
+      "recall": 0.9476397044609182,
+      "f1-score": 0.922985432545889,
+      "support": 25296.0
+    },
+    "weighted avg": {
+      "precision": 0.9982743468956308,
+      "recall": 0.9981419987349779,
+      "f1-score": 0.9981931276967296,
+      "support": 25296.0
+    }
+  },
+  "threshold": 0.1,
+  "best_trial": 1,
+  "best_params": {
+    "n_estimators": 300,
+    "learning_rate": 0.05,
+    "num_leaves": 31,
+    "max_depth": -1,
+    "min_child_samples": 20,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "reg_alpha": 0.0,
+    "reg_lambda": 0.0
+  },
+  "failed_bearing_detections": [
+    {
+      "bearing_id": 3,
+      "detected": true,
+      "first_alert_timestamp": "2004-04-17T04:52:55",
+      "warning_hours": 21.833333333333332,
+      "alert_coverage": 0.896551724137931
+    }
+  ],
+  "non_failed_bearing_alert_rate": 0.001686696183849884,
+  "non_failed_bearing_alerts": 32,
+  "non_failed_bearing_note": "These component-level false positives may include vibration transmitted from the documented failed bearing through the shared test rig.",
+  "operational_metrics": {
+    "failure_events": 1,
+    "eligible_failure_events": 1,
+    "boundary_failure_events_excluded": 0,
+    "detected_failure_events": 1,
+    "missed_failure_events": 0,
+    "event_detection_rate": 1.0,
+    "mean_lead_time_hours": 21.833333333333332,
+    "median_lead_time_hours": 21.833333333333332,
+    "alert_episodes": 7,
+    "false_alert_episodes": 6,
+    "false_alert_episode_rate": 0.8571428571428571,
+    "alert_episodes_per_machine_week": 0.2738911406929415,
+    "mean_alert_persistence_hours": 3.857142857142857,
+    "max_alert_persistence_hours": 21.666666666666668,
+    "mean_failure_window_coverage": 0.9027777777777778,
+    "failure_event_details": [
+      {
+        "entity_id": "3",
+        "failure_timestamp": "2004-04-18T02:42:55",
+        "detected": true,
+        "first_alert_timestamp": "2004-04-17T04:52:55",
+        "lead_time_hours": 21.833333333333332,
+        "failure_window_coverage": 0.9027777777777778
+      }
+    ]
+  },
+  "evaluation_note": "Exploratory re-evaluation: Set 3 previously influenced feature design.",
+  "experiment": "ims",
+  "selection_metric": "validation_pr_auc",
+  "n_candidates": 12,
+  "baseline_validation_pr_auc": 0.8194304739548139,
+  "best_validation_pr_auc": 0.8194304739548139,
+  "validation_pr_auc_improvement": 0.0
+}

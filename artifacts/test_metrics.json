@@ -1,0 +1,264 @@
+{
+  "roc_auc": 0.799180523131164,
+  "pr_auc": 0.1077093068606006,
+  "precision": 0.09045335658238884,
+  "recall": 0.679214402618658,
+  "f1": 0.15964608578572803,
+  "confusion_matrix": [
+    [
+      16816,
+      4173
+    ],
+    [
+      196,
+      415
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.9884787209028921,
+      "recall": 0.8011815712992519,
+      "f1-score": 0.8850293413331228,
+      "support": 20989.0
+    },
+    "1": {
+      "precision": 0.09045335658238884,
+      "recall": 0.679214402618658,
+      "f1-score": 0.15964608578572803,
+      "support": 611.0
+    },
+    "accuracy": 0.7977314814814814,
+    "macro avg": {
+      "precision": 0.5394660387426404,
+      "recall": 0.740197986958955,
+      "f1-score": 0.5223377135594254,
+      "support": 21600.0
+    },
+    "weighted avg": {
+      "precision": 0.9630762441621593,
+      "recall": 0.7977314814814814,
+      "f1-score": 0.8645103983174071,
+      "support": 21600.0
+    }
+  },
+  "threshold": 0.1,
+  "operational_metrics": {
+    "failure_events": 27,
+    "eligible_failure_events": 25,
+    "boundary_failure_events_excluded": 2,
+    "detected_failure_events": 20,
+    "missed_failure_events": 5,
+    "event_detection_rate": 0.8,
+    "mean_lead_time_hours": 22.75,
+    "median_lead_time_hours": 24.0,
+    "alert_episodes": 430,
+    "false_alert_episodes": 400,
+    "false_alert_episode_rate": 0.9302325581395349,
+    "alert_episodes_per_machine_week": 3.344444444444444,
+    "mean_alert_persistence_hours": 10.669767441860465,
+    "max_alert_persistence_hours": 241.0,
+    "mean_failure_window_coverage": 0.6916666666666668,
+    "failure_event_details": [
+      {
+        "entity_id": "M001",
+        "failure_timestamp": "2026-04-17T19:00:00",
+        "detected": true,
+        "first_alert_timestamp": "2026-04-16T19:00:00",
+        "lead_time_hours": 24.0,
+        "failure_window_coverage": 1.0
+      },
+      {
+        "entity_id": "M003",
+        "failure_timestamp": "2026-04-27T20:00:00",
+        "detected": true,
+        "first_alert_timestamp": "2026-04-26T20:00:00",
+        "lead_time_hours": 24.0,
+        "failure_window_coverage": 1.0
+      },
+      {
+        "entity_id": "M005",
+        "failure_timestamp": "2026-04-22T19:00:00",
+        "detected": true,
+        "first_alert_timestamp": "2026-04-21T19:00:00",
+        "lead_time_hours": 24.0,
+        "failure_window_coverage": 1.0
+      },
+      {
+        "entity_id": "M006",
+        "failure_timestamp": "2026-04-23T17:00:00",
+        "detected": true,
+        "first_alert_timestamp": "2026-04-22T17:00:00",
+        "lead_time_hours": 24.0,
+        "failure_window_coverage": 1.0
+      },
+      {
+        "entity_id": "M009",
+        "failure_timestamp": "2026-04-23T08:00:00",
+        "detected": true,
+        "first_alert_timestamp": "2026-04-22T08:00:00",
+        "lead_time_hours": 24.0,
+        "failure_window_coverage": 0.9166666666666666
+      },
+      {
+        "entity_id": "M010",
+        "failure_timestamp": "2026-04-28T22:00:00",
+        "detected": true,
+        "first_alert_timestamp": "2026-04-27T22:00:00",
+        "lead_time_hours": 24.0,
+        "failure_window_coverage": 1.0
+      },
+      {
+        "entity_id": "M011",
+        "failure_timestamp": "2026-04-14T21:00:00",
+        "detected": true,
+        "first_alert_timestamp": "2026-04-13T21:00:00",
+        "lead_time_hours": 24.0,
+        "failure_window_coverage": 1.0
+      },
+      {
+        "entity_id": "M012",
+        "failure_timestamp": "2026-04-14T01:00:00",
+        "detected": true,
+        "first_alert_timestamp": "2026-04-13T19:00:00",
+        "lead_time_hours": 6.0,
+        "failure_window_coverage": 0.041666666666666664
+      },
+      {
+        "entity_id": "M016",
+        "failure_timestamp": "2026-04-15T05:00:00",
+        "detected": true,
+        "first_alert_timestamp": "2026-04-14T05:00:00",
+        "lead_time_hours": 24.0,
+        "failure_window_coverage": 1.0
+      },
+      {
+        "entity_id": "M020",
+        "failure_timestamp": "2026-04-22T09:00:00",
+        "detected": true,
+        "first_alert_timestamp": "2026-04-21T09:00:00",
+        "lead_time_hours": 24.0,
+        "failure_window_coverage": 1.0
+      },
+      {
+        "entity_id": "M023",
+        "failure_timestamp": "2026-04-22T21:00:00",
+        "detected": true,
+        "first_alert_timestamp": "2026-04-21T21:00:00",
+        "lead_time_hours": 24.0,
+        "failure_window_coverage": 1.0
+      },
+      {
+        "entity_id": "M024",
+        "failure_timestamp": "2026-04-26T23:00:00",
+        "detected": false,
+        "first_alert_timestamp": null,
+        "lead_time_hours": null,
+        "failure_window_coverage": 0.0
+      },
+      {
+        "entity_id": "M028",
+        "failure_timestamp": "2026-04-24T23:00:00",
+        "detected": false,
+        "first_alert_timestamp": null,
+        "lead_time_hours": null,
+        "failure_window_coverage": 0.0
+      },
+      {
+        "entity_id": "M030",
+        "failure_timestamp": "2026-04-27T11:00:00",
+        "detected": false,
+        "first_alert_timestamp": null,
+        "lead_time_hours": null,
+        "failure_window_coverage": 0.0
+      },
+      {
+        "entity_id": "M031",
+        "failure_timestamp": "2026-04-27T07:00:00",
+        "detected": true,
+        "first_alert_timestamp": "2026-04-26T09:00:00",
+        "lead_time_hours": 22.0,
+        "failure_window_coverage": 0.9166666666666666
+      },
+      {
+        "entity_id": "M032",
+        "failure_timestamp": "2026-04-17T10:00:00",
+        "detected": true,
+        "first_alert_timestamp": "2026-04-16T10:00:00",
+        "lead_time_hours": 24.0,
+        "failure_window_coverage": 0.25
+      },
+      {
+        "entity_id": "M038",
+        "failure_timestamp": "2026-04-27T14:00:00",
+        "detected": true,
+        "first_alert_timestamp": "2026-04-26T14:00:00",
+        "lead_time_hours": 24.0,
+        "failure_window_coverage": 0.9583333333333334
+      },
+      {
+        "entity_id": "M039",
+        "failure_timestamp": "2026-04-18T17:00:00",
+        "detected": true,
+        "first_alert_timestamp": "2026-04-17T17:00:00",
+        "lead_time_hours": 24.0,
+        "failure_window_coverage": 1.0
+      },
+      {
+        "entity_id": "M040",
+        "failure_timestamp": "2026-04-23T00:00:00",
+        "detected": true,
+        "first_alert_timestamp": "2026-04-22T00:00:00",
+        "lead_time_hours": 24.0,
+        "failure_window_coverage": 1.0
+      },
+      {
+        "entity_id": "M041",
+        "failure_timestamp": "2026-04-22T04:00:00",
+        "detected": true,
+        "first_alert_timestamp": "2026-04-21T04:00:00",
+        "lead_time_hours": 24.0,
+        "failure_window_coverage": 1.0
+      },
+      {
+        "entity_id": "M042",
+        "failure_timestamp": "2026-04-30T03:00:00",
+        "detected": true,
+        "first_alert_timestamp": "2026-04-29T03:00:00",
+        "lead_time_hours": 24.0,
+        "failure_window_coverage": 1.0
+      },
+      {
+        "entity_id": "M046",
+        "failure_timestamp": "2026-04-24T19:00:00",
+        "detected": true,
+        "first_alert_timestamp": "2026-04-23T19:00:00",
+        "lead_time_hours": 24.0,
+        "failure_window_coverage": 0.5833333333333334
+      },
+      {
+        "entity_id": "M048",
+        "failure_timestamp": "2026-04-17T15:00:00",
+        "detected": true,
+        "first_alert_timestamp": "2026-04-16T20:00:00",
+        "lead_time_hours": 19.0,
+        "failure_window_coverage": 0.625
+      },
+      {
+        "entity_id": "M048",
+        "failure_timestamp": "2026-04-22T00:00:00",
+        "detected": false,
+        "first_alert_timestamp": null,
+        "lead_time_hours": null,
+        "failure_window_coverage": 0.0
+      },
+      {
+        "entity_id": "M050",
+        "failure_timestamp": "2026-04-23T21:00:00",
+        "detected": false,
+        "first_alert_timestamp": null,
+        "lead_time_hours": null,
+        "failure_window_coverage": 0.0
+      }
+    ]
+  }
+}
